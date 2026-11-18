@@ -10,6 +10,7 @@
   --color-ink-soft: #45453f;
   --color-ink: #111111;
   --color-accent: #2b4fd9;
+  --container-site: 70rem;
 }
 
 /* Fonts (loaded in layout.tsx) */
