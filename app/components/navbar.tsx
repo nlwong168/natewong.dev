@@ -6,9 +6,10 @@ export default function Navbar() {
     <header>
       <Container>
         <div className="flex justify-between py-7 px-8">
-          <h1 className="text-sm">nate wong</h1>
+          <Link href="/" className="text-sm">
+            nate wong
+          </Link>
           <nav className="grid grid-flow-col gap-6 text-sm">
-            <Link href="/">// Home</Link>
             <Link href="/about">// About</Link>
           </nav>
         </div>
