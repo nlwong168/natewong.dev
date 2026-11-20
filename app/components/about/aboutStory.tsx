@@ -2,7 +2,7 @@ import Container from "@/app/components/container";
 
 export default function AboutStory() {
   return (
-    <section className="py-6 bg-surface md:py-12">
+    <section className="py-6 md:py-12">
       <Container>
         <div className="flex flex-col md:flex-row">
           <h2 className="text-3xl font-bold mb-4 md:w-1/2">My Story</h2>

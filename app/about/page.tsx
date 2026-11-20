@@ -1,6 +1,7 @@
 import AboutHero from "@/app/components/about/aboutHero";
 import AboutStory from "../components/about/aboutStory";
-import AboutExperience from "../components/about/aboutExperience"; 
+import AboutExperience from "../components/about/aboutExperience";
+import AboutToolkit from "../components/about/aboutToolkit";
 
 export default function About() {
   return (
@@ -8,6 +9,7 @@ export default function About() {
       <AboutHero />
       <AboutStory />
       <AboutExperience />
+      <AboutToolkit />
     </main>
   );
 }
