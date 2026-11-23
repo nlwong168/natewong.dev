@@ -44,7 +44,10 @@ export default function AboutOtherHalf() {
                 target="_blank"
                 className="text-accent font-bold"
               >
-                See my photography
+                See my photography{" "}
+                <span aria-hidden="true" className="inline-block ml-2">
+                  ↗
+                </span>
               </Link>
             </div>
           </div>

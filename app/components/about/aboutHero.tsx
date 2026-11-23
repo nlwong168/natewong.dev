@@ -18,7 +18,7 @@ export default function AboutHero() {
           />
           <div className="md:max-w-1/2 lg:max-w-2/3">
             <p className="font-mono text-sm text-muted">// about</p>
-            <h1 className="mt-4 text-6xl font-medium tracking-tight">
+            <h1 className="mt-4 text-4xl font-medium tracking-tight md:text-6xl">
               Ten years on the web. Six behind the camera.
             </h1>
             <p className="mt-4 max-w-xl text-lg text-ink-soft">
