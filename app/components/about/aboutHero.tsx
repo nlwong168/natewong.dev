@@ -1,16 +1,20 @@
+import Image from "next/image";
+import headshot from "@/public/nate-headshot.jpg";
+
 import Container from "@/app/components/container";
 
 export default function AboutHero() {
   return (
-    <section className="mt-12 mb-20 mx-8">
+    <section className="pt-12 pb-20 px-8 bg-white">
       <Container>
-        <div className="md:flex gap-12 align-center justify-center flex-wrap md:flex-row-reverse md:flex-nowrap md:justify-between">
-          <img
-            src="/globe.svg"
-            alt="About me"
-            className="mb-8 rounded-lg shadow-lg"
-            width="100px"
-            height="100px"
+        <div className="flex gap-12 items-center justify-center flex-wrap md:flex-row-reverse md:flex-nowrap md:justify-between">
+          <Image
+            src={headshot}
+            alt="Nate Wong holding a camera"
+            sizes="(min-width: 768px) 480px, 100vw"
+            className="h-auto w-full max-w-[480px]"
+            placeholder="blur"
+            priority
           />
           <div className="md:max-w-1/2 lg:max-w-2/3">
             <p className="font-mono text-sm text-muted">// about</p>
