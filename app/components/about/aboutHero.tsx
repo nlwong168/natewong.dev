@@ -10,7 +10,7 @@ export default function AboutHero() {
         <div className="flex gap-12 items-center justify-center flex-wrap md:flex-row-reverse md:flex-nowrap md:justify-between">
           <Image
             src={headshot}
-            alt="Nate Wong holding a camera"
+            alt="Nate Wong headshot"
             sizes="(min-width: 768px) 480px, 100vw"
             className="h-auto w-full max-w-[480px]"
             placeholder="blur"
