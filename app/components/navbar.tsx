@@ -11,6 +11,13 @@ export default function Navbar() {
           </Link>
           <nav className="grid grid-flow-col gap-6 text-sm">
             <Link href="/about">// About</Link>
+            <a
+              href="/2026 Nate Wong Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume <span aria-hidden="true">↗</span>
+            </a>
           </nav>
         </div>
       </Container>
