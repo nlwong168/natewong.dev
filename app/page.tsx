@@ -1,4 +1,5 @@
 import Container from "@/app/components/container";
+import HomeLatestWork from "./components/home/homeLatestWork";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
           I’m a frontend developer in Chicago, building clean, fast websites
           with a photographer’s eye.
         </p>
+        <HomeLatestWork />
       </Container>
     </main>
   );
